@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1600px) {
+    .about-section .image-column .ex-image {
+        left: -13px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+    .hero-section .image-column {
+        max-width: 512px;
+        margin: 0 auto;
+    }
+    .about-section .image-column .ex-image {
+        display: none;
+    }
+    .about-section .image-column .ex-box {
+        display: none;
+    }
+
+    .service-section .service {
+        width: 46%;
+    }
+
+    .footer-section .footer-maps iframe {
+        max-width: 100%;
+    }
+    .footer-section .footer-social {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    /* h2 {
+        font-size: 30px;
+        line-height: 36px;
+    } */
+    .title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .t-divider {
+        width: 100%;
+        max-width: 96px;
+    }
+    .title::after {
+     opacity: 0;
+    }
+    .about-section .t-divider {
+        max-width: 96px;
+    }
+    .header-section li a {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .header-section .logo {
+        max-width: 89px;
+    }
+
+    .hero-section .sub-heading {
+        margin-bottom: 32px;
+    }
+    .about-section .text-column .content-wrapper p {
+        margin-top: 14px;
+        margin-bottom: 29px;
+    }
+
+    .service-section .service {
+        width: 100%;
+    }
+
+    .footer-quick-link {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width:580px) {
+
+    .hero-section .img-wrapper {
+        margin-left: 14px;
+    }
+
+    .hero-section .img-wrapper .popup-content {
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-57%,-50%);
+    }
+    .hero-section .img-wrapper:hover .popup-content .ann-div {
+        transform: scale(2);
+    }
+    .hero-section .img-wrapper:hover .popup-content .ann-div .t-color {
+        margin-bottom: 3px;
+        font-size: 16px;
+    }
+
+    .about-section .call-box {
+        display: inline-block;
+        margin-left: 4%;
+    }
+
+
+
+    .choose-section .description-content ul li {
+        margin-top: 16px;
+    }
+    .choose-section .description-content ul li:first-child {
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .hosting-column {
+        padding-left: 21px;
+    }
+
+  .our-partner-section .partners-heading {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width:480px) {
+    h4 {
+        font-size: 20px;
+    }
+    .testimonial-section .rating i {
+        font-size: 14px;
+    }
+    .common-btn {
+        font-weight: 700;
+        padding: 7px 14px;
+    }
+    .color-third {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about-section .call-box span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about-section .call-box .call-icon span {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .catagory-btn .category-button {
+        margin-bottom: 15px;
+    }
+
+}

@@ -1,0 +1,76 @@
+
+/* ====================== Custome font Declare ===================== */
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/raleway/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Teko Light";
+    src: url("../fonts/teko/Teko-Light.ttf");
+}
+@font-face {
+    font-family: "Teko Regular";
+    src: url("../fonts/teko/Teko-Regular.ttf");
+}
+@font-face {
+    font-family: "Teko Medium";
+    src: url("../fonts/teko/Teko-Medium.ttf");
+}
+@font-face {
+    font-family: "Teko SemiBold";
+    src: url("../fonts/teko/Teko-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Teko Bold";
+    src: url("../fonts/teko/Teko-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("../fonts/roboto/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+
+/* ====================== End Custome font Declare ===================== */
+
+body, p {
+    font-family: "Roboto Regular";
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Teko Bold";
+}
+
+h1 {
+	font-size: 58px;
+	line-height: 64px;
+}
+h2 {
+	font-size: 45px;
+	line-height: 50px;
+}
+h4{
+    font-size: 25px;
+}
+.sub-heading {
+    line-height: 30px;
+}

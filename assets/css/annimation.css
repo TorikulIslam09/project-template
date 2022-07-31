@@ -1,0 +1,18 @@
+.choose-section .bg-annimation {
+    position: absolute;
+    right:-15%; 
+    top:10px;
+    z-index: -1;
+	transform: rotate(20deg); 
+
+    /* animation-name: bg-annimation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+}
+/* 
+@keyframes bg-annimation {
+    0%   {right:-17%; top:5px;}
+    50%  {right:-15%; top:10px;}
+    100% {right:-17%; top:5px;}
+} */
